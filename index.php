@@ -63,7 +63,7 @@ echo "<script>alert('Please enter valid details');</script>";
 
 </head>
 <body>
-    
+    <?php include('includes/header.php');?>
 <div class="content-wrapper">
 <div class="container">
 <div class="row pad-botm">
@@ -105,3 +105,16 @@ echo "<script>alert('Please enter valid details');</script>";
 
     </div>
     </div>
+</div>
+    </div>
+     <!-- CONTENT-WRAPPER SECTION END-->
+ <?php include('includes/footer.php');?>
+      <!-- FOOTER SECTION END-->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+      <!-- CUSTOM SCRIPTS  -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
