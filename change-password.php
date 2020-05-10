@@ -127,4 +127,17 @@ Change Password
 </div>
 </div>  
 <!---LOGIN PABNEL END-->            
-             
+
+</div>
+    </div>
+     <!-- CONTENT-WRAPPER SECTION END-->
+ <?php include('includes/footer.php');?>
+      <!-- FOOTER SECTION END-->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+      <!-- CUSTOM SCRIPTS  -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
+<?php } ?>
