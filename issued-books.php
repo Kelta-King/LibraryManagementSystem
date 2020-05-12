@@ -40,3 +40,36 @@ header('location:manage-books.php');
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
+<body>
+      <!------MENU SECTION START-->
+<?php include('includes/header.php');?>
+<!-- MENU SECTION END-->
+    <div class="content-wrapper">
+         <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12">
+                <h4 class="header-line">Manage Issued Books</h4>
+    </div>
+    
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Advanced Tables -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          Issued Books 
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Book Name</th>
+                                            <th>ISBN </th>
+                                            <th>Issued Date</th>
+                                            <th>Return Date</th>
+                                            <th>Fine in(USD)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
