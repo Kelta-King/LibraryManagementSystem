@@ -111,3 +111,37 @@ error:function (){}
                            SINGUP FORM
                         </div>
                         <div class="panel-body">
+<form name="signup" method="post" onSubmit="return valid();">
+<div class="form-group">
+<label>Enter Full Name</label>
+<input class="form-control" type="text" name="fullanme" autocomplete="off" required />
+</div>
+
+
+<div class="form-group">
+<label>Mobile Number :</label>
+<input class="form-control" type="text" name="mobileno" maxlength="10" autocomplete="off" required />
+</div>
+                                        
+<div class="form-group">
+<label>Enter Email</label>
+<input class="form-control" type="email" name="email" id="emailid" onBlur="checkAvailability()"  autocomplete="off" required  />
+   <span id="user-availability-status" style="font-size:12px;"></span> 
+</div>
+
+<div class="form-group">
+<label>Enter Password</label>
+<input class="form-control" type="password" name="password" autocomplete="off" required  />
+</div>
+
+<div class="form-group">
+<label>Confirm Password </label>
+<input class="form-control"  type="password" name="confirmpassword" autocomplete="off" required  />
+</div>
+ <div class="form-group">
+<label>Verification code : </label>
+<input type="text"  name="vercode" maxlength="5" autocomplete="off" required style="width: 150px; height: 25px;" />&nbsp;<img src="captcha.php">
+</div>                                
+<button type="submit" name="signup" class="btn btn-danger" id="submit">Register Now </button>
+
+                                    </form>
