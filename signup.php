@@ -90,3 +90,24 @@ error:function (){}
 </script>    
 
 </head>
+<body>
+    <!------MENU SECTION START-->
+<?php include('includes/header.php');?>
+<!-- MENU SECTION END-->
+    <div class="content-wrapper">
+         <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12">
+                <h4 class="header-line">User Signup</h4>
+                
+                            </div>
+
+        </div>
+             <div class="row">
+           
+<div class="col-md-9 col-md-offset-1">
+               <div class="panel panel-danger">
+                        <div class="panel-heading">
+                           SINGUP FORM
+                        </div>
+                        <div class="panel-body">
