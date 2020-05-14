@@ -46,3 +46,16 @@ echo '<script>alert("Your profile has been updated")</script>';
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> 
 
 </head>
+<body>
+    <!------MENU SECTION START-->
+<?php include('includes/header.php');?>
+<!-- MENU SECTION END-->
+    <div class="content-wrapper">
+         <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12">
+                <h4 class="header-line">My Profile</h4>
+                
+                            </div>
+
+        </div>
