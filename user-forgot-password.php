@@ -62,3 +62,57 @@ return false;
 return true;
 }
 </script>
+</head>
+<body>
+    <!------MENU SECTION START-->
+<?php include('includes/header.php');?>
+<!-- MENU SECTION END-->
+<div class="content-wrapper">
+<div class="container">
+<div class="row pad-botm">
+<div class="col-md-12">
+<h4 class="header-line">User Password Recovery</h4>
+</div>
+</div>
+             
+<!--LOGIN PANEL START-->           
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
+<div class="panel panel-info">
+<div class="panel-heading">
+ LOGIN FORM
+</div>
+<div class="panel-body">
+<form role="form" name="chngpwd" method="post" onSubmit="return valid();">
+
+<div class="form-group">
+<label>Enter Reg Email id</label>
+<input class="form-control" type="email" name="email" required autocomplete="off" />
+</div>
+
+<div class="form-group">
+<label>Enter Reg Mobile No</label>
+<input class="form-control" type="text" name="mobile" required autocomplete="off" />
+</div>
+
+<div class="form-group">
+<label>Password</label>
+<input class="form-control" type="password" name="newpassword" required autocomplete="off"  />
+</div>
+
+<div class="form-group">
+<label>ConfirmPassword</label>
+<input class="form-control" type="password" name="confirmpassword" required autocomplete="off"  />
+</div>
+
+ <div class="form-group">
+<label>Verification code : </label>
+<input type="text" class="form-control1"  name="vercode" maxlength="5" autocomplete="off" required  style="height:25px;" />&nbsp;<img src="captcha.php">
+</div> 
+
+ <button type="submit" name="change" class="btn btn-info">Chnage Password</button> | <a href="index.php">Login</a>
+</form>
+ </div>
+</div>
+</div>
+</div>
